@@ -1,7 +1,6 @@
 import {BaseHTMLAttributes, ButtonHTMLAttributes} from 'react';
 import {Container} from './styles';
 
-
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{}
 
 export function Button({children, ...rest}:ButtonProps){

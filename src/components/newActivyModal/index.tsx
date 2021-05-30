@@ -6,7 +6,6 @@ interface NewActivyModalProps{
     isOpen: boolean;
     onRequestClose: () => void;
 }
-
 interface NewActivyModalData {
     courseunit: string;
     activy: string;
