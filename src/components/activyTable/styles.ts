@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const Container = styled.div`
     margin-top: 2rem;
 
@@ -14,6 +15,7 @@ export const Container = styled.div`
             text-align: left;
             line-height: 1.5rem;
         }   
+        
 
         td {
             padding: 1rem 2rem;

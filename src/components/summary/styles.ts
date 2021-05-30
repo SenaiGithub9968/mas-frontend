@@ -6,7 +6,6 @@ export const Container = styled.div`
     gap: 2rem;
     margin-top: -100px;
 
-
     div {
         background: var(--backgroundCard);
         padding: 1.5rem 1.5rem;
@@ -35,5 +34,5 @@ export const Container = styled.div`
         &.highlight-background {
         background: var(--greenDark);
         color: #fff;
-    }
-`;
+        }
+    }`
