@@ -36,6 +36,7 @@ export const Content = styled.div`
             filter: brightness(0.8);
         }
         
+        
         & + button {
             margin-left: 10px;
         }

@@ -35,5 +35,5 @@ export const Container = styled.div`
         &.highlight-background {
         background: var(--greenDark);
         color: #fff;
-    }
-`;
+        }
+    }`

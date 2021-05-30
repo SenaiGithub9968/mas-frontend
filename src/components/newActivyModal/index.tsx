@@ -2,7 +2,6 @@ import Modal from 'react-modal';
 import {useForm} from 'react-hook-form';
 import {FiX} from 'react-icons/fi';
 import {Container, Error} from './styles';
-
 interface NewActivyModalProps{
     isOpen: boolean;
     onRequestClose: () => void;

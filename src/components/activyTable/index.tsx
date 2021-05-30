@@ -1,5 +1,6 @@
 import {Container} from './styles';
 
+
 export function ActivyTable(){
     return (
         <Container>
