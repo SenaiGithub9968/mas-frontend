@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
-import loginBackgroundImg from '../../assets/bg-shapes.svg';
+import path from 'path';
+
+const loginBackgroundImg = path.resolve("/static/media/bg-shapes.51dcc6b7.svg");
+//const loginBackgroundImg = require(path.resolve(__dirname, "..","..", "assets", "bg-shapes.svg"));
 
 export const Container = styled.div`
     height: 100vh;
@@ -29,7 +32,7 @@ export const FormContainer = styled.div`
         margin-bottom: 30px;
         font-weight: bold;
         color: #3CB371;
-
+        
     }
 
     a {
@@ -99,10 +102,10 @@ export const InputContainer = styled.div`
 `;
 
 export const Error = styled.span`
-    font-size: 0,9rem;
+    font-size: 0.9rem;
     font-weight: bold;
     color: coral;
-`
+`;
 
 export const Background = styled.div`
   flex: 1;

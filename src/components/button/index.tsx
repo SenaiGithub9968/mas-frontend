@@ -1,4 +1,4 @@
-import {BaseHTMLAttributes, ButtonHTMLAttributes} from 'react';
+import {ButtonHTMLAttributes} from 'react';
 import {Container} from './styles';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{}
